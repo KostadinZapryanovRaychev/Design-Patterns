@@ -28,6 +28,8 @@ Facade
 
 Decorator
 
+State
+
 “Why all this class / pattern ceremony? Why not just use functions?”
 
 Let’s answer this honestly, not dogmatically.
