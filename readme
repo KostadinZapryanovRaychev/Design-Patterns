@@ -1,0 +1,54 @@
+
+Design patterns ----> behavior / creation / structure
+
+Relations--->Association / Aggregation / Composition = object relationships
+
+DESIGN PATTERNS
+
+“Why all this class / pattern ceremony? Why not just use functions?”
+
+Let’s answer this honestly, not dogmatically.
+
+Short answer (truth)
+
+Functions are enough for small, simple, short-lived code.
+Patterns + classes are needed when systems grow, change, and evolve.
+
+Now let’s unpack that
+
+Why NOT just a function?
+
+You could do this:
+
+void attackWithOldGun(OldLaserGun& gun) {
+    gun.shootLaser();
+}
+
+
+✔ Works
+✔ Simple
+❌ But not scalable
+
+
+The real problem: coupling
+
+If you use functions directly:
+
+if (weaponType == "oldGun")
+    attackWithOldGun(oldGun);
+else if (weaponType == "newGun")
+    attackWithNewGun(newGun);
+
+
+Problems:
+
+Client code knows about every weapon
+
+Every new weapon = modify existing code
+
+Breaks Open/Closed Principle
+
+This becomes a mess fast.
+
+
+

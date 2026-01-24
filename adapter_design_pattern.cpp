@@ -44,13 +44,8 @@ void fight(Weapon* weapon) {
 
 int main() {
     OldLaserGun oldGun;
-
-    // Wrap old gun with adapter
     Weapon* adaptedWeapon = new LaserGunAdapter(&oldGun);
-
-    // Game uses it like a normal weapon
     fight(adaptedWeapon);
-
     delete adaptedWeapon;
     return 0;
 }
