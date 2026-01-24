@@ -52,12 +52,10 @@ public:
 };
 
 int main() {
-    // Create individual heroes
     Hero* hero1 = new Hero("Captain C++");
     Hero* hero2 = new Hero("DebugGirl");
     Hero* hero3 = new Hero("MemoryMan");
 
-    // Create a small squad
     Squad* alphaSquad = new Squad();
     alphaSquad->add(hero1);
     alphaSquad->add(hero2);

@@ -4,31 +4,36 @@ Design patterns ----> behavior / creation / structure
 Relations--->Association / Aggregation / Composition = object relationships
 
 DESIGN PATTERNS
-Creational
 
-✅ Factory
 
-✅ Abstract Factory
+Creational Patterns
 
-✅ Singleton
+Factory ✅
 
-✅ Prototype
+Abstract Factory ✅
 
-✅ Builder
+Singleton ✅
 
-Structural
+Prototype ✅
 
-✅ Adapter
+Builder ✅
 
-Behavioral
+Structural Patterns
 
-✅ Observer
+Adapter ✅
 
-Facade
+Decorator ✅
 
-Decorator
+Facade ✅
 
-State
+Composite ✅
+
+Behavioral Patterns
+
+Observer ✅
+
+State ✅
+
 
 “Why all this class / pattern ceremony? Why not just use functions?”
 
