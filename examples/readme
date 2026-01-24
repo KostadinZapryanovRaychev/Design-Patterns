@@ -1,0 +1,41 @@
+Superhero Game – Student Task
+Task Overview
+
+Your mission is to create a simple superhero game in C++ without using any design patterns.
+This is the “messy version” stage — the goal is to see what happens when you put everything into one place.
+
+Later, you will refactor this code using design patterns to make it clean and maintainable.
+
+Requirements
+
+Create at least 3 superheroes
+
+Each superhero should have a name, state (Normal, PoweredUp, Injured), and optional powers (Laser, Shield).
+
+Implement hero actions
+
+attack() → behavior depends on state and powers
+
+defend() → behavior depends on state and powers
+
+heal() → changes state if injured
+
+Create squads
+
+A squad can contain multiple superheroes
+
+Calling attack() on a squad should trigger all member attacks
+
+Simulate buttons or triggers
+
+Create simple functions or classes to “press buttons” to make heroes perform actions
+
+Demonstrate the game in a main function
+
+Execute individual hero actions
+
+Execute squad actions
+
+Apply powers to some heroes
+
+Change states dynamically
