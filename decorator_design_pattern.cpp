@@ -87,7 +87,6 @@ int main() {
     delete hero;
     delete laserHero;
     delete ultimateHero;
-
     return 0;
 }
 
