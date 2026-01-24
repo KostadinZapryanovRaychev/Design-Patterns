@@ -34,6 +34,10 @@ Observer ✅
 
 State ✅
 
+Command
+
+Strategy
+
 
 “Why all this class / pattern ceremony? Why not just use functions?”
 
